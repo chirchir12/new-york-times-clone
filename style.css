@@ -26,8 +26,32 @@ nav
 
 .subscribe-account{
 	margin-right: 2rem;
+
 } 
 
+.subscribe-btn, .account{
+	padding: 0.7rem 0;
+	font-size: 0.7em;
+	border: 0;	
+}
+
+.subscribe-btn{
+	background-color: #567b95;
+	border-radius: 4px;
+	font-weight: bold;
+	color: white;
+	width: 10rem;
+}
+
+.account{
+	background: none;
+	margin-left: 0.8rem;
+}
+
+.account span{
+	opacity: 0.5;
+	margin-left: 0.3rem;
+}
 
 nav{
 	/* position: fixed; */
@@ -67,4 +91,22 @@ button.menu-btn{
 }
 .nav-spacing-left {
 	margin-right: .5rem;
+}
+
+
+nav a{
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+	font-weight: bold;
+}
+
+.logo-div{
+	width: 16rem;
+	cursor: pointer;
+}
+
+
+button{
+	cursor: pointer;
 }

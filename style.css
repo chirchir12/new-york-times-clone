@@ -105,6 +105,10 @@ nav a{
 	width: 16rem;
 	cursor: pointer;
 }
+.logo-div img{
+	width: 100%;
+	height: auto;
+}
 
 
 button{

@@ -115,16 +115,27 @@ button{
 	cursor: pointer;
 }
 
-img[src="img/main-article-img.jpg"]{
+.main-image-and-caption {
 	width: 80%;
-	height: auto;
 	display: block;
 	margin: 0 auto;
+
+}
+
+img[src="img/main-article-img.jpg"]{
+	width: 100%;
+	height: auto;
+	
 }
 
 .main-img-cp{
-	width: 60%;
-	margin: 0 auto;
+	width: 70%;
+	opacity: .8;
+	font-size: .9rem;
+	line-height: 1.2rem;
+}
+.faded-cation-text {
+	color: #888 ;
 }
 
 .mb-1{
@@ -154,5 +165,20 @@ article h1{
 }
 
 
+/* main-content-area */
+.content-container {
+	width: 60%;
+	margin: 1.5rem auto;
+}
+.first-content {
+	display: flex;
+	
+}
+.first-content ul {
+	display: flex;
+}
+.spacer {
+	flex: 1;
+}
 
 

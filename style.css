@@ -266,6 +266,7 @@ span[rel="author"]{
 .content-container p{
 	width: 70%;
 	margin: 1rem auto;
+	line-height: 1.1rem;
 }
 
 

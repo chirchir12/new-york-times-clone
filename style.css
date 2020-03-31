@@ -279,6 +279,7 @@ span[rel="author"]{
 	width: 70%;
 	flex-direction: column;
 	align-items: center;
+	font-size: 0.9rem;
 }
 .apreciation-divider {
 	width: 20%;
@@ -365,3 +366,26 @@ aside h4{
 	text-decoration: underline;
 }
 
+/**********grid 2**********/
+.other-content-grid{
+	background-image: url("img/grid-2.png");
+	background-size: 60rem auto;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 1rem;
+	width: 60rem;
+	height: auto;
+	margin: 0 auto;
+}
+
+.other-grid-items{
+	font-size: 0.8rem;
+	height: 20rem;
+	padding-top: 7.5rem;
+}
+
+.grid-top{
+	padding-top: 10rem;
+}

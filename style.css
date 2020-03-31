@@ -248,21 +248,29 @@ span[rel="author"]{
 	color: inherit;
 }
 
+
+/***********main article*******/
 .content-aside-container {
 	display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: 4fr 1fr;
 	grid-template-rows: 1fr;
 	grid-gap: 2rem;
-
-
+	justify-content: center;
+	align-items: center;
 }
 
+.content-container{
+	padding-left: 200px;
+}
+
+.content-container p{
+	width: 70%;
+	margin: 1rem auto;
+}
+
+
+
 /* **********aside*********** */
-
-
-
-
-
 .editor-picks-content-container {
 	width: 80%;
 	height: 20rem;

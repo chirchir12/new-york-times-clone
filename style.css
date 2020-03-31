@@ -423,3 +423,20 @@ aside h4{
 	margin: 1rem auto;
 	font-size: .9rem;
 }
+
+
+
+.footer-pop-up-container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 3rem;
+	position: fixed;
+	bottom: 0;
+	background-color: #2a2d30;
+	align-items: center;
+}
+
+
+
+

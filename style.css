@@ -384,8 +384,42 @@ aside h4{
 	font-size: 0.8rem;
 	height: 20rem;
 	padding-top: 7.5rem;
+
+}
+
+.other-grid-items p {
+	line-height: 1.1rem;
+}
+.other-grid-items strong {
+	font-weight: 700;
 }
 
 .grid-top{
 	padding-top: 10rem;
+}
+.other-content-head  {
+	width: 60rem;
+	margin: 0 auto;
+}
+.other-content-head h2{
+	font-weight: 700;
+}
+.other-content-head p {
+	font-size: .98rem;
+	opacity: .8;
+	margin: .5rem 0;
+	line-height: 1.2rem;
+}
+.other-grid-line {
+	width: 5rem;
+	height: 1px;
+	background-color: black;
+	margin-left: 14%;
+	margin-top: -3rem;
+
+}
+.other-grid-caption {
+	width:72%;
+	margin: 1rem auto;
+	font-size: .9rem;
 }

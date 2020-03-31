@@ -180,6 +180,8 @@ article h1{
 
 .first-content li{
 	margin-left: 1rem;
+	display: flex;
+	align-items: center;
 }
 
 .first-content li i{
@@ -187,8 +189,36 @@ article h1{
 	background-color: lightgrey;
 	border-radius: 100%;
 	padding: 0.4rem;
+	font-size: 1rem;
 }
+.first-content li i[class*="far fa-comment-alt"],
+.first-content li i[class*="far fa-bookmark"] {
+	background: none;
+	font-size: 2rem;
+}
+
 
 .spacer {
 	flex: 1;
+}
+
+.comments-notfications {
+	width: 50px;
+	height: 40px;
+	background-color: red;
+	position: relative;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.comments-notfications::after{
+	content: "";
+	position: absolute;
+	left: 100%;
+	top: 26px;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-right: 26px solid red;
+	border-bottom: 13px solid transparent;
 }

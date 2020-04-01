@@ -167,8 +167,9 @@ img[src="img/main-article-img.jpg"]{
 	margin-top: 3rem;
 }
 
-.mt-3{
-	margin-top: 6rem;
+
+.mt-5{
+	margin-top: 12rem;
 }
 
 h1.main-heading{
@@ -260,11 +261,14 @@ span[rel="author"]{
 	padding-left: 200px;
 }
 
+
 .content-container p{
 	width: 70%;
 	margin: 1rem auto;
 	line-height: 24px;
 }
+
+
 .content-container p a {
 	color: rgb(50, 104, 145);
 }
@@ -421,6 +425,13 @@ aside h4{
 }
 
 
+/******************************/
+.content-2 p,
+.content-vid
+{
+	width: 50%;
+	margin-left: 8rem;	
+}
 
 .footer-pop-up-container{
 	display: flex;
@@ -431,8 +442,10 @@ aside h4{
 	bottom: 0;
 	background-color: #2a2d30;
 	align-items: center;
+	display: none;
 }
 
-
-
-
+.content-vid{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}

@@ -449,3 +449,19 @@ aside h4{
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 }
+
+.content-2-img img {
+	max-width: 100%;
+	height: auto;
+}
+.content-vid .fullwidth-caption {
+	width:100%;
+}
+.subheading-start {
+	width:78%;
+	
+}
+.content-container .article-additional-info{
+	font-size: .9rem;
+	line-height: 17px;
+}

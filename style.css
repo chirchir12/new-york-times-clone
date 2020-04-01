@@ -16,6 +16,7 @@ header {
 	border-bottom: 1px solid lightgray;
 	padding:0 .5rem;
 	background-color: white;
+	z-index: 200;
 }
 
 .flex-center,

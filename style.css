@@ -445,7 +445,8 @@ aside h4{
 	display: none;
 }
 
-.content-vid{
+.content-vid,
+{
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 }
@@ -462,6 +463,35 @@ aside h4{
 	
 }
 .content-container .article-additional-info{
-	font-size: .9rem;
+	font-size: .7rem;
 	line-height: 17px;
+}
+
+.content-container .article-additional-info a{
+	color: #424242;
+}
+
+.article-additional-info a:hover{
+	text-decoration: none;
+}
+
+.comment-section-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.comment-section-container button{
+	background-color: rgb(50, 104, 145);
+	padding: 0.6rem 4.3rem 0.8rem;
+	font-weight: 600;
+	color: white;
+	border: 0;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.date-socials-container i.fa-facebook-f{
+	padding-left: 8px;
+	padding-right: 8px;
 }

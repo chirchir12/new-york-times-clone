@@ -558,11 +558,12 @@ aside h4{
 
 .article-item span{
 	display: block;
+	margin:.4rem 0;
 }
 
 .article-image-caption{
 	text-align: right;	
-	margin-top: -0.9rem;
+	margin-top: -0.5rem;
 	margin-bottom: 0.8rem;
 	font-size: 0.7rem;
 	opacity: 0.5;

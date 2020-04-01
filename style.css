@@ -500,7 +500,7 @@ aside h4{
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	grid-template-rows: 1fr; 
-	grid-gap: 1rem;
+	grid-gap: 1rem 2rem;
 	width: 93%;
 	margin: 0 auto;
 }
@@ -509,7 +509,11 @@ aside h4{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	border-top: 1px solid black;
 	
+}
+.grid-item-2 {
+	border-top: 1px solid black;
 }
 
 .recommended-articles-grid {
@@ -565,7 +569,7 @@ aside h4{
 }
 
 .article-pubished-date{
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 	margin-top: 0.7rem;
 	opacity: 0.5;
 	font-size: 0.8rem;
@@ -581,4 +585,28 @@ aside h4{
 .editor-divider.horiz-line-full{
 	width: 100%;
 }
+.grid-item-aside {
+	margin-top: 1rem;
+}
+.grid-item-2 .most-popular {
+	display: block;
+	margin-top: 1.2rem;
+	color: black;
+	font-weight: 600;
+	font-size: 1rem;
+}
+.grid-item-aside ul li {
+	border-top: 1px solid grey;
+	padding: 1rem .5rem;
+}
+
+.grid-item-aside ul a{
+	text-decoration: none;
+	color: black;
+	line-height: 27px;
+}
+.grid-item-aside ul a:hover {
+	opacity: .8;
+}
+
 

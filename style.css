@@ -625,6 +625,7 @@ aside h4{
 	background-color: lightgray;
 	margin: 0 auto;
 	margin-bottom: 1px;
+	margin-top: 1rem;
 }
 
 .footer-container {
@@ -682,6 +683,9 @@ aside h4{
 	margin-top: .5rem;
 
 }
+.bolder {
+	font-weight: bold;
+}
 .footer-light-elements {
 	border-bottom: 1px solid gray;
 	padding-bottom: 2rem;
@@ -691,6 +695,7 @@ aside h4{
 .copyright{
 	width: 93%;
 	margin: 0 auto;
+	margin-bottom: 3rem;
 }
 
 .copyright ul{
@@ -698,4 +703,32 @@ aside h4{
 	justify-content: space-around;
 	font-size: 0.7rem;
 	padding: 1rem 0 2rem;
+}
+.popup-footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	
+	
+	padding: 1rem;
+	background-color:black;
+	color: #fff;
+}
+.popup-footer>span{
+	display: inline-block;
+	margin-left: 30%;
+
+}
+.popup-footer div{
+	float: right;
+	margin-right: 3rem;
+	
+}
+.popup-footer button{
+	margin-right: 2rem;
+	border:none;
+	background:none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
 }

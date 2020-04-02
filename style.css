@@ -167,6 +167,10 @@ img[src="img/main-article-img.jpg"]{
 	margin-top: 3rem;
 }
 
+.mt-3{
+	margin-top: 5rem;
+}
+
 
 .mt-5{
 	margin-top: 12rem;
@@ -534,8 +538,33 @@ aside h4{
 	height: 60%;
 }
 
+.article-item .article-body{
+	width: 100%;
+	height: 40%;
+	padding-top: 1rem;
+}	
+
+.article-image-caption{
+	text-align: right;	
+	font-size: 0.7rem;
+	opacity: 0.5;
+	margin-bottom: 0.5rem;
+}
+
+.article-pubished-date{
+	opacity: 0.5;
+	font-size: 0.8rem;
+	margin-top: 0.5rem;
+}
+
+.article-title{
+	font-weight: bold;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
 .article-item img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 
@@ -558,29 +587,6 @@ aside h4{
 
 .article-item span{
 	display: block;
-	margin:.4rem 0;
-}
-
-.article-image-caption{
-	text-align: right;	
-	margin-top: -0.5rem;
-	margin-bottom: 0.8rem;
-	font-size: 0.7rem;
-	opacity: 0.5;
-}
-
-.article-pubished-date{
-	margin-bottom: 3rem;
-	margin-top: 0.7rem;
-	opacity: 0.5;
-	font-size: 0.8rem;
-}
-
-
-.article-title{
-	font-weight: bold;
-	font-size: 1rem;
-	cursor: pointer;
 }
 
 .editor-divider.horiz-line-full{
@@ -609,5 +615,4 @@ aside h4{
 .grid-item-aside ul a:hover {
 	opacity: .8;
 }
-
 

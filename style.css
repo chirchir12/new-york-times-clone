@@ -82,6 +82,7 @@ button.menu-btn{
 	height: 2px;
 	background-color: black;
 	margin: 1px; 
+	display: block;
 }
 
 .searchbtn {
@@ -454,6 +455,12 @@ aside h4{
 {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
+}
+
+.content-vid iframe{
+	width: 100%;
+	height: 400px;
+	border: 0;
 }
 
 .content-2-img img {

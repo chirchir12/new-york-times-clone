@@ -108,7 +108,7 @@ nav a{
 }
 
 .logo-div{
-	width: 16rem;
+	width: 12rem;
 	cursor: pointer;
 }
 .logo-div img{
@@ -616,3 +616,54 @@ aside h4{
 	display: none;
 }
 
+/* ******************FOOTER************** */
+.footer-container {
+	width: 93%;
+	margin: 0 auto;
+	border: 1px solid red;
+
+}
+.footer-container a{
+	color: #2a2d30;
+	text-decoration: none;
+}
+.footer-container a:hover{
+	text-decoration: underline;
+}
+.footer-top {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-top .logo-div{
+	margin:0;
+	padding:0;
+}
+.footer-top .logo-div img {
+	margin-left: -.9rem;
+}
+
+.footer-nav-container {
+	display: flex;
+	justify-content: space-between;
+	
+
+}
+.footer-nav-container .list-item-container-footer:last-child{
+	margin-right: 2.5rem;
+	padding-left: 1rem;
+	border-left: 1px solid gray;
+}
+.footer-list-head {
+	font-weight: 700;
+	font-size: 1rem;
+}
+.list-item-container-footer li{
+	font-size: .96rem;
+	margin-top: .5rem;
+
+}
+.footer-light-elements {
+	border-bottom: 1px solid gray;
+	padding-bottom: 2rem;
+	margin: 1rem 0;
+}

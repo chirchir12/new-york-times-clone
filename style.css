@@ -96,10 +96,12 @@ button.menu-btn {
   justify-content: center;
   align-items: center;
 }
+
 .searchbtn > img {
   width: 100%;
   height: auto;
 }
+
 .nav-spacing-left {
   margin-right: 0.5rem;
 }
@@ -115,6 +117,7 @@ nav a {
   width: 12rem;
   cursor: pointer;
 }
+
 .logo-div img {
   width: 100%;
   height: auto;
@@ -141,6 +144,7 @@ img[src="img/main-article-img.jpg"] {
   font-size: 0.9rem;
   line-height: 1.2rem;
 }
+
 .faded-cation-text {
   color: #888;
 }
@@ -191,6 +195,7 @@ article h1 {
 .date-socials-container {
   display: flex;
 }
+
 .date-socials-container ul {
   display: flex;
 }
@@ -223,6 +228,16 @@ article h1 {
   margin-left: 0.2rem;
 }
 
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.article-item img {
+  width: 100%;
+  height: auto;
+}
+
 .comments-notfications div img {
   height: 1.9rem;
 }
@@ -244,6 +259,13 @@ span[rel="author"] {
   opacity: 0.9;
   width: 60%;
   font-size: 0.9rem;
+}
+
+.appreciation-container a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1.2rem;
 }
 
 .content-header h3 a {
@@ -282,6 +304,7 @@ span[rel="author"] {
   align-items: center;
   font-size: 0.9rem;
 }
+
 .apreciation-divider {
   width: 20%;
   height: 1px;
@@ -293,13 +316,6 @@ span[rel="author"] {
 .appreciation-container span {
   font-weight: 600;
   line-height: 1.4rem;
-}
-
-.appreciation-container a {
-  color: rgb(50, 104, 145);
-  text-decoration: none;
-  font-weight: 600;
-  line-height: 1.2rem;
 }
 
 .subheading {
@@ -343,9 +359,15 @@ aside h4 {
   width: 5rem;
 }
 
-.image-container img {
-  width: 100%;
-  height: auto;
+.grid-item-1 h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.grid-item-aside ul a {
+  text-decoration: none;
+  color: black;
+  line-height: 27px;
 }
 
 .editor-content a:hover {
@@ -430,16 +452,14 @@ aside h4 {
   border: 0;
 }
 
-.content-2-img img {
-  max-width: 100%;
-  height: auto;
-}
 .content-vid .fullwidth-caption {
   width: 100%;
 }
+
 .subheading-start {
   width: 78%;
 }
+
 .content-container .article-additional-info {
   font-size: 0.7rem;
   line-height: 17px;
@@ -500,6 +520,7 @@ aside h4 {
   grid-template-rows: 1fr 1fr;
   grid-gap: 1rem;
 }
+
 .editors-picks-article-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -537,20 +558,10 @@ aside h4 {
   cursor: pointer;
 }
 
-.article-item img {
-  width: 100%;
-  height: auto;
-}
-
 .grid-item-1 h3 {
   font-weight: bold;
   font-size: 1rem;
   margin: 1rem 0;
-}
-
-.grid-item-1 h3 a {
-  text-decoration: none;
-  color: black;
 }
 
 .grid-item-1 h3 a:hover {
@@ -576,16 +587,12 @@ aside h4 {
   font-weight: 600;
   font-size: 1rem;
 }
+
 .grid-item-aside ul li {
   border-top: 1px solid grey;
   padding: 1rem 0.5rem;
 }
 
-.grid-item-aside ul a {
-  text-decoration: none;
-  color: black;
-  line-height: 27px;
-}
 .grid-item-aside ul a:hover {
   opacity: 0.8;
 }
@@ -608,13 +615,13 @@ aside h4 {
   padding-bottom: 0.8rem;
 }
 
-.footer-container a,
-.copyright a {
+.footer-container a.go-to-home,
+.copyright ul.footer-links a {
   color: #2a2d30;
   text-decoration: none;
 }
 
-.footer-container a:hover {
+div.footer-container a:hover {
   text-decoration: underline;
 }
 
@@ -623,7 +630,7 @@ aside h4 {
   justify-content: space-between;
 }
 
-.footer-top a {
+.footer-top a.go-to-home {
   font-size: 0.8rem;
   color: rgb(50, 104, 145);
 }
@@ -653,7 +660,7 @@ aside h4 {
   font-size: 1rem;
 }
 
-.list-item-container-footer li {
+.list-item-container-footer ul.news li {
   font-size: 0.96rem;
   margin-top: 0.5rem;
 }
@@ -661,7 +668,8 @@ aside h4 {
 .bolder {
   font-weight: bold;
 }
-.footer-light-elements {
+
+.list-item-container-footer ul.footer-light-elements {
   border-bottom: 1px solid gray;
   padding-bottom: 2rem;
   margin: 1rem 0;
@@ -679,11 +687,11 @@ aside h4 {
   font-size: 0.7rem;
   padding: 1rem 0 2rem;
 }
+
 .popup-footer {
   position: fixed;
   width: 100%;
   bottom: 0;
-
   padding: 1rem;
   background-color: black;
   color: #fff;
@@ -694,10 +702,11 @@ aside h4 {
   margin-left: 30%;
 }
 
-.popup-footer div {
+.popup-footer div.learn-more {
   float: right;
   margin-right: 3rem;
 }
+
 .popup-footer button {
   margin-right: 2rem;
   border: none;

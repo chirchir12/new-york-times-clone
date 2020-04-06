@@ -11,6 +11,15 @@ body {
   font-size: 18px;
 }
 
+.content-2-img {
+  width: 50%;
+  margin-left: 8rem;
+}
+
+.content-2-img img {
+  width: 100%;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -139,7 +148,7 @@ img[src="img/main-article-img.jpg"] {
 }
 
 .main-img-cp {
-  width: 70%;
+  width: 85%;
   opacity: 0.8;
   font-size: 0.9rem;
   line-height: 1.2rem;
@@ -452,7 +461,7 @@ aside h4 {
   border: 0;
 }
 
-.content-vid .fullwidth-caption {
+.fullwidth-caption {
   width: 100%;
 }
 

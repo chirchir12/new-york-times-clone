@@ -11,6 +11,11 @@ body {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .content-2-img {
   width: 50%;
   margin-left: 8rem;
@@ -33,7 +38,12 @@ header {
   z-index: 200;
 }
 
-.flex-center,
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .flex-start,
 .menu-btn,
 .flex-end,
@@ -101,9 +111,6 @@ button.menu-btn {
   width: 1.3rem;
   background: none;
   border: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .searchbtn > img {
@@ -201,17 +208,14 @@ article h1 {
   margin: 1.5rem auto;
 }
 
-.date-socials-container {
-  display: flex;
-}
-
-.date-socials-container ul {
+.date-socials-container,
+.date-socials-container ul,
+.date-socials-container li {
   display: flex;
 }
 
 .date-socials-container li {
   margin-left: 0.8rem;
-  display: flex;
   align-items: center;
 }
 
@@ -369,12 +373,10 @@ aside h4 {
 }
 
 .grid-item-1 h3 a {
-  text-decoration: none;
   color: black;
 }
 
 .grid-item-aside ul a {
-  text-decoration: none;
   color: black;
   line-height: 27px;
 }
@@ -448,11 +450,6 @@ aside h4 {
 .content-vid {
   width: 50%;
   margin-left: 8rem;
-}
-
-.content-vid {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 
 .content-vid iframe {
@@ -627,7 +624,6 @@ aside h4 {
 .footer-container a.go-to-home,
 .copyright ul.footer-links a {
   color: #2a2d30;
-  text-decoration: none;
 }
 
 div.footer-container a:hover {
@@ -640,7 +636,6 @@ div.footer-container a:hover {
 }
 
 .footer-nav-container .list-item-container-footer ul li a {
-  text-decoration: none;
   color: inherit;
 }
 
@@ -674,7 +669,7 @@ div.footer-container a:hover {
   font-size: 1rem;
 }
 
-.footer-bold-elements li {
+.footer-bold-elements li.bold {
   margin-top: 0.7rem;
 }
 
@@ -702,7 +697,6 @@ div.footer-container a:hover {
 .copyright {
   width: 93%;
   margin: 0 auto;
-  margin-bottom: 3rem;
 }
 
 .copyright ul {
@@ -721,11 +715,11 @@ div.footer-container a:hover {
   color: #fff;
 }
 
-
 .popup-footer > span {
   display: inline-block;
   margin-left: 30%;
 }
+
 .popup-footer strong.support-jorn {
   display: inline-block;
   padding-right: 1rem;

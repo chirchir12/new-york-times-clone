@@ -674,6 +674,10 @@ div.footer-container a:hover {
   font-size: 1rem;
 }
 
+.footer-bold-elements li {
+  margin-top: 0.7rem;
+}
+
 .list-item-container-footer ul.short-links li {
   font-size: 0.85rem;
   margin-top: 0.5rem;
@@ -681,12 +685,8 @@ div.footer-container a:hover {
 
 .footer-bold-elements {
   font-weight: bold;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-top: 0.5rem;
-}
-
-.footer-bold-elements li {
-  margin-top: 0.7rem;
 }
 
 .list-item-container-footer ul.footer-light-elements {

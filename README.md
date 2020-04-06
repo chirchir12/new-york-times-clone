@@ -1,6 +1,9 @@
 # new-york-times-clone
 
-> this is a clone of the new york times article on "Space Ripples Reveal Big Bang’s Smoking Gun".
+> this is a clone of the new york times article on "Space Ripples Reveal Big Bang’s Smoking Gun". 
+> The goal of the project was to learn CSS layout using flexbox, floats and css grid.
+> The project is not responsive at the moment 
+> We used semantic HTML to structure the markup 
 
 ![screenshot](img/Screenshot.png)
 
@@ -16,17 +19,20 @@
 - Github: [@githubhandle](https://github.com/chirchir12 )
 - Twitter: [@twitterhandle](https://twitter.com/shadochir )
 - Linkedin: [linkedin](https://www.linkedin.com/in/chirma/ )
+- Email: [email](chirchir7370@gmail.com)
 
 👤 **Author2**
 
 - Github: [@githubhandle](https://github.com/misterpaul4)
 - Twitter: [@twitterhandle](https://twitter.com/paulajuze)
 - Linkedin: [linkedin](https://www.linkedin.com/in/chukwuebuka-paul-ajuizeogu/)
+- Email: [email](ajuzepaul@gmail.com )
 
 ## Getting started
 
 - Clone the repository with:
     ``` git clone git@github.com/chirchir12/new-york-times-clone.git  ```
+- cd to ```new-york-times-clone```
 
 - See the original page here: https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
 

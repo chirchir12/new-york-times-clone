@@ -721,9 +721,14 @@ div.footer-container a:hover {
   color: #fff;
 }
 
+
 .popup-footer > span {
   display: inline-block;
   margin-left: 30%;
+}
+.popup-footer strong.support-jorn {
+  display: inline-block;
+  padding-right: 1rem;
 }
 
 .popup-footer div.learn-more {

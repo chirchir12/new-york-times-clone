@@ -639,6 +639,11 @@ div.footer-container a:hover {
   justify-content: space-between;
 }
 
+.footer-nav-container .list-item-container-footer ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .footer-top a.go-to-home {
   font-size: 0.8rem;
   color: rgb(50, 104, 145);
@@ -669,19 +674,29 @@ div.footer-container a:hover {
   font-size: 1rem;
 }
 
-.list-item-container-footer ul.news li {
-  font-size: 0.96rem;
+.list-item-container-footer ul.short-links li {
+  font-size: 0.85rem;
   margin-top: 0.5rem;
 }
 
-.bolder {
+.footer-bold-elements {
   font-weight: bold;
+  font-size: .9rem;
+  margin-top: 0.5rem;
+}
+
+.footer-bold-elements li {
+  margin-top: 0.7rem;
 }
 
 .list-item-container-footer ul.footer-light-elements {
   border-bottom: 1px solid gray;
   padding-bottom: 2rem;
   margin: 1rem 0;
+}
+
+.short-links-sm {
+  font-size: 0.7rem;
 }
 
 .copyright {
